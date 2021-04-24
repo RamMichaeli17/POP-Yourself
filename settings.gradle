@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Pop Yourself App By Ram Michaeli"
