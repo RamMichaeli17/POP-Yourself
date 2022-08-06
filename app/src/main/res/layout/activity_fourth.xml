@@ -153,7 +153,6 @@
                 android:id="@+id/grid"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@+id/vertical_start"
                 android:columnCount="2"
                 android:rowCount="3">
 
