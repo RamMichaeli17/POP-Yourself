@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpar234"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details_txt"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:id="@+id/txt_view_8"
+            android:fontFamily="@font/stopyeling" />
+
+
+
+        <EditText
+            android:id="@+id/name_ed"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="@string/name"
+            android:drawableStart="@drawable/custom_name_icon"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/whale"
+            android:textColorHint="#0004EE"
+            android:background="@drawable/custom_input"
+            />
+
+
+
+        <EditText
+            android:id="@+id/email_ed"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_address"
+            android:drawableStart="@drawable/custom_email_icon"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/whale"
+            android:background="@drawable/custom_input"
+            android:textColorHint="#0004EE"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <EditText
+            android:id="@+id/phone_ed"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:inputType="number"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="@string/phone"
+            android:drawableStart="@drawable/custom_phone_icon"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/whale"
+            android:textColorHint="#0004EE"
+            android:background="@drawable/custom_input"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/card_ed"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:inputType="number"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="@string/card"
+            android:drawableStart="@drawable/custom_card_icon"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/whale"
+            android:textColorHint="#0004EE"
+            android:background="@drawable/custom_input"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+
+
+        <CheckBox
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_box_txt"
+            android:id="@+id/check_box_mails"
+            android:textSize="25sp"
+            android:textColor="#0004EE"
+            android:fontFamily="@font/whale" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner1"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:popupBackground="@drawable/gradient_background"
+            android:visibility="gone"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/mails_layout"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/email_dyn_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:textSize="25sp"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:hint="@string/email_address"
+                    android:drawableStart="@drawable/custom_email_icon"
+                    android:drawablePadding="12dp"
+                    android:fontFamily="@font/whale"
+                    android:textColorHint="#0004EE"
+                    android:background="@drawable/custom_input"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone"
+                    />
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delivery_method"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:id="@+id/deilvery"
+            android:fontFamily="@font/stopyeling" />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radio_group">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/radio_two"
+                    android:text="@string/radio_pickup"
+                    android:fontFamily="@font/whale"
+                    android:textColor="@color/blue_special"
+                    android:textSize="21sp"
+                    android:onClick="checkButton"
+                    />
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/radio_one"
+                    android:text="@string/radio_delivery"
+                    android:fontFamily="@font/whale"
+                    android:textColor="@color/blue_special"
+                    android:textSize="21sp"
+                    android:onClick="checkButton"
+                    android:layout_marginHorizontal="30dp"/>
+            </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="@string/address"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/whale"
+            android:textColorHint="#0004EE"
+            android:background="@drawable/custom_input"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:drawableStart="@drawable/custom_home_icon"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/self_pickup_txt"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="@color/blue_special"
+            android:gravity="center"
+            android:id="@+id/self_pickup"
+            android:fontFamily="@font/whale"
+            android:visibility="gone"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="@string/edit_text_finish"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_selector"
+            android:id="@+id/submit_btn"
+            android:fontFamily="@font/whale"
+
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

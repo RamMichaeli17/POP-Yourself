@@ -1,3 +1,64 @@
 <resources>
-    <string name="app_name">Pop Yourself App By Ram Michaeli</string>
+    <string name="app_name">"POP! Yourself "</string>
+    <string name="begin_btn">Let\'s Begin</string>
+    <string name="choose_body_txt">Please choose a body for your POP!</string>
+    <string name="choose_accessories_txt">Now let\'s customize your POP!</string>
+    <string name="txt1">Please choose your POP!\'s looks</string>
+    <string name="txt2">Eyebrows</string>
+    <string name="txt3">Beard</string>
+    <string name="txt4">Hair</string>
+    <string name="txt5">Shirt</string>
+    <string name="txt6">Pants</string>
+    <string name="txt7">Accessory</string>
+    <string name="finish_bth">Done</string>
+    <string name="txt8">Scroll down to make your unique POP!\nScroll to the side to see all the clothing items\nTap the item you want to add to your pop!\nThe price of every POP! is 50 ILS</string>
+    <string name="edit_text_hint">Name your POP!</string>
+    <string name="edit_text_finish">Submit</string>
+    <string name="txt9">After you have finished, press the \"Done\" botton in the bottom of the screen and complete the order\n</string>
+    <string name="email_address">Email Address</string>
+    <string name="details_txt">Please fill in the details below:</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="check_box_txt">Do you want to send your POP! to your friends by email ?</string>
+    <string name="drag_down">How many emails you want to send to ?</string>
+    <string name="more_spinner">more</string>
+
+    <string-array name="numbers">
+
+        <item>@string/spinner_amount</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>@string/more_spinner</item>
+
+
+    </string-array>
+    <string name="alert_topic">Enter Quantity</string>
+    <string name="alert_approve">OK</string>
+    <string name="alert_dissapprove">Cancel</string>
+    <string name="alert_invalid">Invalid input</string>
+    <string name="spinner_amount">Select amount</string>
+    <string name="delivery_method">Would you like delivery or self-pickup?</string>
+    <string name="radio_delivery">Delivery</string>
+    <string name="radio_pickup">Self-Pickup</string>
+    <string name="address">Address</string>
+    <string name="self_pickup_txt">Come meet us at: \nArik Miller 5/17\nAshdod</string>
+    <string name="name_wrong">Invalid name</string>
+    <string name="phone_wrong">Invalid phone number</string>
+    <string name="email_wrong">Invalid email</string>
+    <string name="topic">POP! Yourself</string>
+    <string name="topic_by">By Ram Michaeli</string>
+    <string name="tnx">Thanks for your order!</string>
+    <string name="card">Credit Card</string>
+    <string name="card_wrong">Invalit card number</string>
+    <string name="choose_way">Please choose delivery or self-pickup</string>
+    <string name="loading">Loading</string>
+    <string name="clear_btn">Clear</string>
+    <string name="low_rating">Sorry, we\'ll try to get better next time :(</string>
+    <string name="high_rating">Thanks, we love you too ♥ :)</string>
+    <string name="rate_us">Rate us please</string>
+    <string name="save_btn">Save</string>
+    <string name="saved_successfully">The image has been successfully saved, you can take a look at it in the gallery</string>
+    <string name="create_another">Create Another</string>
+
 </resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/wallpar234">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tnx"
+        android:textSize="50sp"
+        android:fontFamily="@font/orange_juice"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        />
+      <ImageView
+          android:layout_width="350dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/ram_fanko2"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/bye_bye" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rate_us"
+        android:textSize="30sp"
+        android:fontFamily="@font/whale"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="180dp"/>
+
+
+
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating_bar"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:layout_gravity="center"
+        android:layout_marginTop="230dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="@string/create_another"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="40dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_selector"
+        android:id="@+id/create_another"
+        android:fontFamily="@font/whale"
+
+        />
+
+
+
+
+
+</FrameLayout>
