@@ -116,6 +116,28 @@ And after ordering, the user will have the option to rate the application and de
 The application contains: animations, designed buttons, creating elements dynamically, saving files and images, text validation and more. <br>
 The application supports both Hebrew and English and has full localization.
 
+<details open>
+<summary>Screenshots</summary>
+<table style="width:100%">
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/62435713/190342607-a648295d-1dbb-4ef9-a549-63a1b2f1cce0.png"/></td>
+    <td><img src="https://user-images.githubusercontent.com/62435713/190342868-9a86e748-fc57-4233-bd89-339833b85f4b.png"/></td>
+    <td><img src="https://user-images.githubusercontent.com/62435713/190343742-e10d6084-38e8-4ba6-81b7-faf35927c686.png"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/62435713/190343836-60624013-6f6a-4f81-8db0-2fe4d3c7e493.png"/></td>
+    <td><img src="https://user-images.githubusercontent.com/62435713/190343914-e5d1be78-5701-4bc0-a096-4f2cc0e4e950.png"/></td>
+    <td><img src="https://user-images.githubusercontent.com/62435713/190344647-8fb00fd6-2499-4d24-96d9-03d9b42d6b2c.png"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/62435713/190344845-ae5bc1b8-d16b-4c92-9b0f-93157c853435.png"/></td>
+    <td><img src="https://user-images.githubusercontent.com/62435713/190344934-b5cbbc5b-f2a4-4d90-8520-9b5a03eb205a.png"/></td>
+  </tr>
+</table>
+</details>
+
+### The Result:
+<img src="https://user-images.githubusercontent.com/62435713/190348614-2d46ded9-6f53-4b27-9ca7-533e8cdf5b74.png" alt="Logo" width="500" height="600">
 
 ### Youtube:
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/NNoIn4_OsiY/0.jpg)](https://youtu.be/NNoIn4_OsiY)
